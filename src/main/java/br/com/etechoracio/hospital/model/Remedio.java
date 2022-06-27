@@ -14,5 +14,4 @@ public class Remedio {
     private String fabricante;
     private LocalDate dataValidade;
     private LocalDate dataFabricacao;
-    private HistoricoConsulta historicoConsulta;
 }

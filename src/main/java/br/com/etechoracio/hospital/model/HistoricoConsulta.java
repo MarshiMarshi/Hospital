@@ -8,7 +8,8 @@ import lombok.Setter;
 public class HistoricoConsulta {
     
     private Integer codigo;
-    private String assinatura;
     private String prescricao;
+    private Remedio remedio;
+    private Exame exame;
     private Prontuario prontuario;
 }
