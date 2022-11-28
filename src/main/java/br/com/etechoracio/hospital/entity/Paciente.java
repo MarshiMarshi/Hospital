@@ -22,7 +22,7 @@ public class Paciente {
     
     @Id
     @Column(name="cpf_pac", columnDefinition="integer")
-    private char cpf;
+    private String cpf;
 
     @Column(name="nome_pac")
     private String nome;

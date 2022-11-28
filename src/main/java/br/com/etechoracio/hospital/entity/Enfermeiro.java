@@ -36,8 +36,8 @@ public class Enfermeiro {
     @Column(name="nome_enf")
     private String nome;
 
-    @Column(name="cpf_enf")
-    private char cpf;
+    @Column(name="cpf_enf", columnDefinition="char")
+    private String cpf;
 
     @Column(name="endereco_enf")
     private String endereco;

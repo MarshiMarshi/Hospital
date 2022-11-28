@@ -39,8 +39,8 @@ public class Medico {
     @Column(name="endereco_med")
     private String endereco;
 
-    @Column(name="cpf_med")
-    private char cpf;
+    @Column(name="cpf_med", columnDefinition="char")
+    private String cpf;
 
     @Column(name="fone_med", columnDefinition="char")
     private String telefone;
