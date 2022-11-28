@@ -1,4 +1,4 @@
-package br.com.etechoracio.hospital.enuns;
+package br.com.etechoracio.hospital.enums;
 
 public enum StatusFuncionarioEnum {
     
